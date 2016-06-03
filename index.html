@@ -5,27 +5,96 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nick Harbison Portfolio</title>
 <link rel="stylesheet" href="css/bootstrap.css">
-<script src="js/jQuery.js"></script>
+<link rel="stylesheet" href="css/style.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
 
 </head>
 
 <body>
+<!-- jQuery and bootstrap -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Scaling page header with background image, using bootstrap
+  -->
+<div class="jumbotron-fluid" id="mainHd">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="http://placekitten.com/250/200" alt="nick harbison logo">
+    <div id="topbar" class="row">
+    <!--  <div class="col-md-6">
+         Not sure if I want to add an image, heashot maybe?
+        <img src="http://placehold.it/250x200" alt="nick harbison logo" />
+      -->
       </div>
       <div class="col-md-6 text-right">
           <h1>Nick Harbison</h1>
-          <h5>Front-End and SQL Developer</h5>
+          <h5>Front-End Developer</h5>
       </div>
     </div>
-    <div class="row" style="background-color:#3366CC">
-      <a class="btn col-md-2 btn-default" href="#" role="button">Link1</a>
-      <a class="btn col-md-2 btn-default" href="#" role="button">Link2</a>
-      <a class="btn col-md-2 btn-default" href="#" role="button">Link3</a>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mobile Friendly!</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Where I Spend My Time <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li data-role="list-divider" class="dropDivider">References</li>
+            <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+            <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+            <li><a href="https://www.codecademy.com/articles/glossary-css">CSS Glossary</a></li>
+            <li><a href="http://www.webmonkey.com/2010/02/html_cheatsheet/">HTML Cheat Sheet</a></li>
+            <li role="separator" class="divider"></li>
+            <li data-role="list-divider" class="dropDivider">Inspiration</li>
+            <li><a href="http://www.hipstercode.com/" target="_blank">Chris Hawkes</a></li>
+            <li><a href="https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ" target="_blank">DevTips</a></li>
+            </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  </div>
+</div>
+
+<div class="jumbotron-fluid" id="primary">
+  <div class="container">
+    <div class="row">
+      <div class=col-md-6>
+        <p id="bodyText">
+               Specializing in fluid, robust web development,
+          you can be sure that once I'm through with your site users will
+          have an enjoyable experience on any platform.
+        </p>
+      </div>
+
     </div>
   </div>
-
-
+</div>
 </body>
