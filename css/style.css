@@ -3,50 +3,145 @@ h1{
   color: white;
 }
 
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Oxygen', sans-serif;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
 h5{
  color: red;
  text-shadow: 2px 2px black;
 }
 
+img {
+    display: inline-block;
+}
+
+#logo{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+body{
+  color: white;
+}
+
 #primary {
+  background-color: black;
   background-image: url("../images/scuffedstatic_dark_1920x1234.jpg");
   min-height: 800px;
 }
 
 p {
-  color: white;
+    color: white;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
+
 #navbar {
-  background-color:#3366CC;
-  border:2px solid #000;
+    background-color:#3366CC;
+    border:2px solid #000;
 }
 
 .btn {
-  border: 1px solid #000;
-  margin-top: : 1px;
+      border: 1px solid #000;
+      margin-top: : 1px;
 }
 
 #mainHd {
-  background-color: black;
-  background-image: url("../images/blueGrunge.jpg");
-  background-position: left;
+    background-color: black;
+    background-image: url("../images/blueGrunge.jpg");
+    background-position: left;
+    font-family: 'Droid Serif', serif;
 }
 
 #bodyText{
-  font-style:italic;
-  font-size: 2.5em;
-  font-weight: bold;
-  padding-top: 100px;
-  padding-right: 8px;
-  border-right: 3px solid grey;
+    font-family: 'Droid Serif', serif;
+    font-style:italic;
+    font-size: 1.75em;
+    padding-top: 90px;
+    padding-right: 8px;
+    padding-bottom: 90px;
+    border-right: 3px solid grey;
 }
 
 .dropDivider{
-text-align: center;
-color: black;
-font-size: 20px;
-font-style: italic;
-font-weight: bold;
-text-shadow: 2px 2px 3px grey
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px grey
+}
+
+hr {
+    height: 2px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.radio{
+    color: white;
+    font-size: 15px;
+
+}
+
+#jobDesc{
+    margin-top: 20px;
+    height: 300px;
+    text-align: center;
+
+}
+
+#coName{
+   margin-top: 12px;
+   margin-bottom: 12px;
+
+ }
+
+#skillsLi{
+  color: white;
+  font-size: 1.5em;
+  margin-top: 60px;
+}
+
+.counter{
+  color: red;
+  text-align: center;
+}
+#send {
+   background-color:green;
+   color: white;
+   border: 1px solid;
+   border-color: white;
+   font-weight: bold;
+ }
+
+ .carousel-inner > .item > img {
+     margin: 0 auto;
+     width: auto;
+  height: 390px;
+ }
+
+.carousel-control {
+  background-color: black;
+}
+
+.carousel slide{
+  background-color: black;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+
+.carousel-indicators li{
+  background-color: red;
+  color: black;
+  border-color: black;
 }

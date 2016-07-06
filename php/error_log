@@ -1,0 +1,4 @@
+[27-Jun-2016 23:21:55 America/Chicago] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ',' or ';' in /home3/oplawlz82/public_html/php/info.php on line 59
+[27-Jun-2016 23:55:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ',' or ';' in /home3/oplawlz82/public_html/php/info.php on line 63
+[29-Jun-2016 08:43:59 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home3/oplawlz82/public_html/php/info.php on line 62
+[29-Jun-2016 08:50:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'nicxcode' (T_STRING), expecting ',' or ';' in /home3/oplawlz82/public_html/php/info.php on line 62

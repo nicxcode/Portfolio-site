@@ -1,0 +1,8 @@
+[27-Jun-2016 11:31:20 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/oplawlz82/public_html/info.php on line 61
+[27-Jun-2016 11:34:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/oplawlz82/public_html/info.php on line 135
+[27-Jun-2016 11:37:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/oplawlz82/public_html/info.php on line 137
+[27-Jun-2016 11:38:49 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/oplawlz82/public_html/info.php on line 63
+[27-Jun-2016 11:39:09 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/oplawlz82/public_html/info.php on line 62
+[27-Jun-2016 11:40:58 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/oplawlz82/public_html/info.php on line 43
+[27-Jun-2016 11:44:10 America/Chicago] PHP Notice:  Undefined variable: c_type in /home3/oplawlz82/public_html/info.php on line 30
+[27-Jun-2016 11:44:10 America/Chicago] PHP Notice:  Undefined variable: errName in /home3/oplawlz82/public_html/info.php on line 32
